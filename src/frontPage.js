@@ -16,9 +16,8 @@ class frontPage extends Component{
          
         <View style={{flex:1,justifyContent:'center'}}>
             <View style={{}}>
-            <Text  style={{fontSize:35,textAlign:'center'}}>
-              {/* University of Western to mkratuwa */}
-              University of mkratuwa
+            <Text  style={{fontSize:30,textAlign:'center'}}>
+              University of Western
             </Text>
             </View>  
           </View>
@@ -34,7 +33,7 @@ class frontPage extends Component{
      
          
           <View style={{flex:1,flexDirection:'row',alignItems:'center',justifyContent:"space-evenly",}}>
-                <View style={{width:'35%'}}>
+                <View style={{width:'35%',}}>
                 <Button
           title="SIGN UP"
           onPress={() => this.props.navigation.navigate('signUp')}
